@@ -1,0 +1,58 @@
+﻿.drsnik
+{
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    width: 540px;
+    height: 100px;
+}
+.drsnik button
+{
+    margin: 0;
+    border: none;
+    width: 20px;
+    height: 100%;
+    position: relative;
+}
+.drsnik button[role='left']
+{
+    float: left;
+}
+.drsnik button[role='right']
+{
+    float: right;
+}
+.drsnik section
+{
+    width: 500px;
+    height: 100px;
+    background-color: gray;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+.drsnik section ul
+{
+    position: relative;
+    white-space: nowrap;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+.drsnik section ul li
+{
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #87ceeb;
+    display: inline-block;
+    color: #fff;
+}
+.drsnik section ul li:nth-child(odd)
+{
+    background-color: #add8e6;
+}
